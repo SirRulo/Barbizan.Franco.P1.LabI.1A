@@ -65,3 +65,59 @@
 
 1653307821 c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primerparcial_lab_1\cliente.h
 
+1653307821 source:c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\cliente.c
+	"cliente.h"
+
+1653313973 c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\cliente.h
+
+1652805577 source:c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\fecha.c
+	"fecha.h"
+
+1653313973 c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\fecha.h
+
+1653274317 source:c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\marca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"marca.h"
+
+1653313973 c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\marca.h
+
+1653311197 source:c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\notebook.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"notebook.h"
+
+1653313973 c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\notebook.h
+	"marca.h"
+	"tipo.h"
+	"cliente.h"
+
+1653313973 c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\tipo.h
+
+1653274871 source:c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\servicio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"servicio.h"
+
+1653313973 c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\servicio.h
+
+1653274317 source:c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\tipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipo.h"
+
+1653275259 source:c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"trabajo.h"
+
+1653313973 c:\users\rtech\documents\tecnicatura programacion\parciales_lab_1\primer_parcial_lab1_parte1\primerparcial_lab_1\trabajo.h
+	"fecha.h"
+	"notebook.h"
+	"servicio.h"
+

@@ -1,5 +1,5 @@
-#ifndef CLIENTE_H_INCLUDED
-#define CLIENTE_H_INCLUDED
+#ifndef CLIENTES_H_INCLUDED
+#define CLIENTES_H_INCLUDED
 
 typedef struct{
     int idCliente;
@@ -7,7 +7,7 @@ typedef struct{
     char sexo;
 }eCliente;
 
-//validar
 int validarCliente(eCliente unCliente);
 
 #endif
+

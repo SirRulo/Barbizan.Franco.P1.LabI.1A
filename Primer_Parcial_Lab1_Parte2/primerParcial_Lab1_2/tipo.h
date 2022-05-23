@@ -6,16 +6,10 @@ typedef struct{
     char descripcion[20];
 }eTipo;
 
-//listar
 int listarTipos(eTipo tipos[], int tam);
-
-//cargar
 int cargarDescripcionTipo(eTipo tipos[], int tam, int id, char descripcion[]);
-
-//buscar
 int buscarTipo(eTipo tipos[], int tam, int id, int* pIndice);
-
-//validar
 int validarTipo(eTipo tipos[], int tam, int id);
 
 #endif
+

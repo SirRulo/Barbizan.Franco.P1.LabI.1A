@@ -15,15 +15,34 @@ typedef struct{
     eCliente cliente;
 }eNotebook;
 
-int altaNotebook(eNotebook vec[], int tam, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip, int* pId);//
-int bajaNotebook(eNotebook vec[], int tam, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip);//
-int modificarNotebooks(eNotebook vec[], int tam, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip);//
-int inicializarNotebooks(eNotebook vec[], int tam); //
-int buscarNotebookLibre(eNotebook vec[], int tam, int* pIndex); //
-int buscarNotebook(eNotebook vec[], int tam, int id, int* pIndex); //
-int mostrarNotebooks(eNotebook e, eMarca marcas[], eTipo tipos[], int tam);//
-int listarNotebooks(eNotebook vec[], int tam, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip);//
-int menuModificarNotebook();//
+//alta
+int altaNotebook(eNotebook vec[], int tam, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip, int* pId);
+
+//baja
+int bajaNotebook(eNotebook vec[], int tam, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip);
+
+//modificar
+int modificarNotebooks(eNotebook vec[], int tam, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip);
+
+//inicializar
+int inicializarNotebooks(eNotebook vec[], int tam);
+
+//buscar
+int buscarNotebookLibre(eNotebook vec[], int tam, int* pIndex);
+
+//buscarLibre
+int buscarNotebook(eNotebook vec[], int tam, int id, int* pIndex);
+
+//mostrar
+int mostrarNotebooks(eNotebook e, eMarca marcas[], eTipo tipos[], int tam);
+
+//listar
+int listarNotebooks(eNotebook vec[], int tam, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip);
+
+//menu Modificar
+int menuModificarNotebook();
+
+//menu Principal
 int menu();
 
 #endif

@@ -13,16 +13,10 @@ typedef struct{
     int isEmpty;
 }eTrabajo;
 
-//inicializar
 int inicializarTrabajos(eTrabajo vec[], int tam);
-
-//buscar
 int buscarTrabajoLibre(eTrabajo vec[], int tam, int* pIndex);
-
-//alta
 int altaTrabajo(eTrabajo trabajos[], int tamTr, eNotebook notebooks[], int tamNot, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip, eServicio servicios[], int tamSer, int* pIdTrabajo);
-
-//listar
 int listarTrabajos(eTrabajo trabajos[], int tamTr, eNotebook notebooks[], int tamNot, eMarca marcas[], int tamMar, eTipo tipos[], int tamTip, eServicio servicios[], int tamSer);
 
 #endif
+

@@ -7,17 +7,11 @@ typedef struct{
     int precio;
 }eServicio;
 
-//listar
 int listarServicios(eServicio servicios[], int tam);
-
-//buscar
 int buscarServicio(eServicio servicios[], int tam, int id, int* pIndice);
-
-//validar
 int validarServicio(eServicio servicios[], int tam, int id);
-
-//cargar
 int cargarDescripcionServicio(eServicio servicios[], int tam, int id, char descripcion[]);
 
 #endif
+
 

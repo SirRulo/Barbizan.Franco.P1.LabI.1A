@@ -9,5 +9,5 @@ typedef struct{
 
 #endif // FECHA_H_INCLUDED
 
-//validar
 int validarFecha(eFecha unaFecha);
+

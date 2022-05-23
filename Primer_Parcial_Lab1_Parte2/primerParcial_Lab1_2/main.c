@@ -23,7 +23,6 @@ int main()
     eNotebook lista[TAM];
     eTrabajo trabajos[TAMTR];
 
-    //hardcodeo marca
     eMarca marcas[TAMM] =
     {
         {1000, "Compac"},
@@ -32,7 +31,6 @@ int main()
         {1003, "HP"}
     };
 
-    //hardcodeo tipo
     eTipo tipos[TAMT] =
     {
         {5000, "Gamer"},
@@ -41,7 +39,6 @@ int main()
         {5003, "Normalita"}
     };
 
-    //hardcodeo servicio
     eServicio servicios[TAMS] =
     {
         {20000, "Bateria", 2250},
@@ -128,6 +125,36 @@ int main()
                 break;
 
             case 10:
+                //printf("7- Listar Servicios\n");
+                listarServicios(servicios, TAMS);
+                break;
+
+            case 11:
+                //printf("7- Listar Servicios\n");
+                listarServicios(servicios, TAMS);
+                break;
+
+            case 12:
+                //printf("7- Listar Servicios\n");
+                listarServicios(servicios, TAMS);
+                break;
+
+            case 13:
+                //printf("7- Listar Servicios\n");
+                listarServicios(servicios, TAMS);
+                break;
+
+            case 14:
+                //printf("7- Listar Servicios\n");
+                listarServicios(servicios, TAMS);
+                break;
+
+            case 15:
+                //printf("7- Listar Servicios\n");
+                listarServicios(servicios, TAMS);
+                break;
+
+            case 16:
                 salir = 's';
                 break;
         }
@@ -137,5 +164,3 @@ int main()
 
     return 0;
 }
-
-
